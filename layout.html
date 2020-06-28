@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+ <html>
+ <style>
+   *{margin: 0; padding: 0; 
+box-sizing: border-box; text-align: center; 
+font-family: 'Gugi', cursive;}
+
+main{
+ width: 75%; margin: 50px auto; 
+ border:1px solid grey;
+ display: grid; color: white;
+ grid-template-rows: 60px 100px 200px 60px;
+ grid-template-columns: repeat(3, 1fr) 150px;
+ grid-gap: 20px;
+ 
+}
+
+ .div1{ background-color: #ff4757; 
+  grid-column: 1/-1;
+ }
+ .div2{ background-color: #2ed573; }
+ .div3{ background-color: #1e90ff; }
+ .div4{ background-color: #5352ed; }
+ .div5{ background-color: #2f3542; 
+  grid-row:2/4; grid-column: 4/5;
+ }
+ .div6{ background-color: #ffa502; 
+  grid-column: 1/ 4;
+ }
+ .div7{ background-color: #00d2d3;
+  grid-column: 1/-1;
+  }
+ </style>
+
+ <head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="stylegrid.css">
+  <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+ </head>
+ <body>
+
+ <main>
+  <div class="div1"> Hi......I am Sharon.</div>
+  <div class="div2"> About me </div>
+  <div class="div3"> Education </div>
+  <div class="div4"> Contact </div>
+  <div class="div5"> You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.      -Dr. Seuss. </div>
+  <div class="div6"> Tell me and I forget. Teach me and I remember. Involve me and I learn. - Benjamin Franklin </div>
+  <div class="div7">Thank You...</div>
+ </main>
+
+ </body>
+ </html> 
+
+
